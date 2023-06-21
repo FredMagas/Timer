@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(100, 98, 98, 0.925);
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+}
+
+.timer {
+    background-color: rgba(100, 98, 98, 0.925);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.container {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 3em;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.87);
+}
+
+.btn-container {
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+    margin: 0 0.5em;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: rgb(47, 87, 87);
+}
+
+.pause-btn {
+    background-color: rgb(54, 121, 47);
+}
+
+.stop-btn {
+    background-color: rgb(182, 64, 35);
+}
+
+.start-btn:hover {
+    background-color: rgb(60, 141, 141);
+}
+
+.pause-btn:hover {
+    background-color: rgb(57, 158, 46);
+}
+
+.stop-btn:hover {
+    background-color: rgb(235, 104, 71);
+}
+
+footer{
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    background-color: black;
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.87);
+}
