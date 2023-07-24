@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(100, 98, 98, 0.925);
+    background-color: rgba(53, 53, 53, 0.925);
     font-weight: bold;
 }
 
@@ -32,10 +32,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(30, 28, 43);
     padding: 3em;
     border-radius: 8px;
-    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.87);
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.336);
 }
 
 .btn-container {
@@ -88,8 +88,8 @@ footer{
     color: white;
     margin-top: auto;
     text-align: center;
-    background-color: black;
+    background-color: rgb(30, 28, 43);
     padding: 0.8rem;
     border-radius: 8px;
-    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.87);
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.336);
 }
