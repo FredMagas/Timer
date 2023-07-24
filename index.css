@@ -34,6 +34,7 @@ h1 {
     align-items: center;
     background-color: rgb(30, 28, 43);
     padding: 3em;
+    margin-top: 5vh;
     border-radius: 8px;
     box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.336);
 }
@@ -90,6 +91,7 @@ footer{
     text-align: center;
     background-color: rgb(30, 28, 43);
     padding: 0.8rem;
+    margin-bottom: 5vh;
     border-radius: 8px;
     box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.336);
 }
